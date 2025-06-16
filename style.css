@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.task-form {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.tasks-container {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.task-card {
+    border: 1px solid #85787f;
+    padding: 10px;
+    margin-bottom: 10px;    
+}
+
+.task-card h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.task-info {
+    margin: 5px 0;
+}
+
+.task-status {
+    display: inline-block;
+    padding: 3px 8px;
+    margin: 5px 0;
+}
+
