@@ -1,7 +1,7 @@
 const taskForm = document.getElementById('taskForm');
 const taskList = document.getElementById('taskList');
 
-let tasks = JSON.parse(localStorage.getItem('tasks'));
+let tasks = JSON.parse(localStorage.getItem('tasks') || []);
 
 function saveTasks() {
     localStorage.setItem('tasks', JSON.stringify(tasks));
